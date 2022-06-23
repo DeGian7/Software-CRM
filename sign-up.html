@@ -196,6 +196,9 @@
                 email: email
             })
             alert('Usuario registrado');
+            window.setTimeout(function(){
+              window.location.href ="log-in.html";
+            },1500);
             // ...
         })
         .catch((error) => {
